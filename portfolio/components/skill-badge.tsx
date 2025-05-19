@@ -1,0 +1,23 @@
+"use client"
+
+import { motion } from "framer-motion"
+
+interface SkillBadgeProps {
+  name: string
+}
+
+export function SkillBadge({ name }: SkillBadgeProps) {
+  return (
+    <motion.span
+      className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
+      whileHover={{
+        scale: 1.05,
+        backgroundColor: "var(--primary-50)",
+        borderColor: "var(--primary-200)",
+        transition: { duration: 0.2 },
+      }}
+    >
+      {name}
+    </motion.span>
+  )
+}
