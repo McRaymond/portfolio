@@ -9,18 +9,21 @@ export function CompanySection() {
     {
       title: "Starter",
       price: "$20",
+      description: "Perfect for individuals or small teams starting their online presence.",
       features: ["10 users", "2GB of storage", "Email support"],
       missing: ["Help center access", "Phone support", "Community access"],
     },
     {
       title: "Pro",
       price: "$30",
+      description: "Designed for growing teams needing more power and flexibility.",
       features: ["20 users", "5GB of storage", "Email support", "Help center access"],
       missing: ["Phone support", "Community access"],
     },
     {
       title: "Enterprise",
       price: "$100",
+      description: "Advanced solution for large-scale businesses with dedicated support.",
       features: [
         "50 users",
         "20GB of storage",
@@ -53,7 +56,7 @@ export function CompanySection() {
             >
               <div className="p-6 sm:px-8">
                 <h2 className="text-lg font-medium text-white">{plan.title}</h2>
-                <p className="mt-2 text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p className="mt-2 text-gray-300">{plan.description}</p>
                 <p className="mt-4">
                   <strong className="text-3xl font-bold text-white sm:text-4xl">{plan.price}</strong>
                   <span className="text-sm font-medium text-gray-300">/month</span>
