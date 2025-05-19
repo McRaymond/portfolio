@@ -1,17 +1,19 @@
-import Link from "next/link";
-import { ExternalLink } from "lucide-react";
+"use client"
 
-import { Card, CardContent, CardFooter } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { HoverCard } from "@/components/animations/hover-card";
+import Link from "next/link"
+import { ExternalLink } from "lucide-react"
+
+import { Card, CardContent, CardFooter } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
+import { HoverCard } from "@/components/animations/hover-card"
 
 // Props for a single project card
 export interface ProjectCardProps {
-  title: string;
-  description: string;
-  tags: string[];
-  imageUrl: string;
-  projectUrl: string;
+  title: string
+  description: string
+  tags: string[]
+  imageUrl: string
+  projectUrl: string
 }
 
 // Project card UI component
@@ -50,10 +52,30 @@ export function ProjectCard({ title, description, tags, imageUrl, projectUrl }: 
         </CardFooter>
       </Card>
     </HoverCard>
-  );
+  )
 }
 
-// Export a list of projects to map in your page.tsx
+// Full section including title and project cards
+export function ProjectSection() {
+  return (
+    <section id="projects" className="w-full py-16 px-4 md:px-6 lg:px-8">
+      <div className="container mx-auto max-w-7xl space-y-8 text-center">
+        <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-white">Projects</h2>
+        <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+          Explore some of the applications and tools I’ve built.
+        </p>
+      </div>
+
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-12">
+        {projects.map((project) => (
+          <ProjectCard key={project.title} {...project} />
+        ))}
+      </div>
+    </section>
+  )
+}
+
+// Project data
 export const projects: ProjectCardProps[] = [
   {
     title: "Portfolio Website",
@@ -97,4 +119,4 @@ export const projects: ProjectCardProps[] = [
     imageUrl: "/placeholder.svg?height=300&width=400",
     projectUrl: "#",
   },
-];
+]

@@ -6,7 +6,7 @@ import { AboutSection } from "@/components/about"
 import { SkillsSection } from "@/components/skill-badge"
 import { ContactSection } from "@/components/contact-form"
 import { CompanySection } from "@/components/Company"
-import { ProjectCard, projects } from "@/components/project-card"
+import { ProjectSection } from "@/components/project-card"
 import { StaggerChildren } from "@/components/animations/stagger-children"
 
 export default function Home() {
@@ -27,11 +27,11 @@ export default function Home() {
 
       {/* Projects */}
       <section id="projects" className="py-12">
-        <StaggerChildren className="mx-auto grid max-w-5xl gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {projects.map((project) => (
-            <ProjectCard key={project.title} {...project} />
-          ))}
-        </StaggerChildren>
+        <ProjectSection />
+      </section>
+
+      <section id="company">
+        <CompanySection />
       </section>
 
       {/* Contact */}
@@ -39,9 +39,6 @@ export default function Home() {
         <ContactSection />
       </section>
 
-      <section id="company">
-        <CompanySection />
-      </section>
     </main>
   )
 }

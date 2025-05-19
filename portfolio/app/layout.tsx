@@ -26,8 +26,8 @@ function Header() {
             <Link href="#about" className="transition-colors hover:text-foreground/80">About</Link>
             <Link href="#skills" className="transition-colors hover:text-foreground/80">Skills</Link>
             <Link href="#projects" className="transition-colors hover:text-foreground/80">Projects</Link>
-            <Link href="#contact" className="transition-colors hover:text-foreground/80">Contact</Link>
             <Link href="#company" className="transition-colors hover:text-foreground/80">Company</Link>
+            <Link href="#contact" className="transition-colors hover:text-foreground/80">Contact</Link>
           </nav>
         </div>
         <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
