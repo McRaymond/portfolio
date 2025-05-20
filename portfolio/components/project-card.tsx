@@ -85,11 +85,11 @@ export const projects: ProjectCardProps[] = [
     projectUrl: "https://github.com/McRaymond/portfolio.git",
   },
   {
-    title: "Another Portfolio",
-    description: "A minimal portfolio powered by React and Framer Motion.",
+    title: "Financial Helper",
+    description: "a personal finance dashboard that helps you track credit card usage, plan weekly payments, and visualize your financial health — all in one clean, interactive interface.",
     tags: ["React", "Framer Motion", "Tailwind CSS"],
-    imageUrl: "/placeholder.svg?height=300&width=400",
-    projectUrl: "#",
+    imageUrl: "https://images.unsplash.com/photo-1605512930496-4dd6e7e82978?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAxfHxmaW5hbmNpYWwlMjBoZWxwZXJ8ZW58MHx8MHx8fDA%3D",
+    projectUrl: "https://github.com/McRaymond/financial-helper.git",
   },
   {
     title: "Task Management App",
