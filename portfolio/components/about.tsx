@@ -45,7 +45,7 @@ export function AboutSection() {
             </FadeIn>
             <FadeIn direction="left" className="flex justify-center">
               <img
-                src="/img/profile.jpg"
+                src="/img/logo_banner.png"
                 alt="About Me"
                 width={400}
                 height={400}
