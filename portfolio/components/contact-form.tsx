@@ -3,7 +3,7 @@
 import React, { useState } from "react"
 import { motion } from "framer-motion"
 import { Mail, Linkedin, Github, Send } from "lucide-react"
-import { FaTelegramPlane, FaInstagram } from "react-icons/fa" // ✅ Add
+import { FaTelegramPlane, FaInstagram } from "react-icons/fa"
 
 import { FadeIn } from "@/components/animations/fade-in"
 import { StaggerChildren } from "@/components/animations/stagger-children"
@@ -89,7 +89,7 @@ function ContactForm() {
 export function ContactSection() {
   return (
     <section id="contact" className="w-full py-12 md:py-24 lg:py-32">
-      <div className="container px-4 md:px-6">
+      <div className="container px-4 md:px-6 max-w-5xl mx-auto">
         <FadeIn className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Get In Touch</h2>
@@ -115,7 +115,8 @@ export function ContactSection() {
                 <div className="flex items-center gap-4">
                   <Github className="h-6 w-6 text-primary" />
                   <div>
-                    <h3 className="text-xl font-bold">github.com/McRaymond</h3>                  </div>
+                    <h3 className="text-xl font-bold">github.com/McRaymond</h3>
+                  </div>
                 </div>
                 <div className="flex items-center gap-4">
                   <FaTelegramPlane className="h-6 w-6 text-primary" />
