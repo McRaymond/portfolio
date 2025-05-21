@@ -92,11 +92,11 @@ export const projects: ProjectCardProps[] = [
     projectUrl: "https://github.com/McRaymond/financial-helper.git",
   },
   {
-    title: "Task Management App",
-    description: "A task app with user auth and progress tracking.",
+    title: "HeroUI POS Design",
+    description: "a modern and intuitive point-of-sale (POS) user interface crafted for fast, efficient, and user-friendly transactions. Built with a focus on clarity and responsiveness, it streamlines the checkout process with sleek layouts, easy navigation, and dynamic visual elements tailored for both desktop and tablet use.",
     tags: ["Next.js", "Firebase", "Tailwind CSS"],
-    imageUrl: "/placeholder.svg?height=300&width=400",
-    projectUrl: "#",
+    imageUrl: "https://gvsmhepiuiax2e6y.public.blob.vercel-storage.com/templates/assets/Screenshot%202025-05-17%20at%2008.21.04-hGeu33003eZkYDOGt5aRnLDIlYkIfw.png",
+    projectUrl: "https://github.com/McRaymond/Point-of-Sale.git",
   },
   {
     title: "Weather App",

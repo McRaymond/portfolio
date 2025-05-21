@@ -10,7 +10,7 @@ export function AboutSection() {
         <FadeIn className="flex flex-col items-center text-center">
           <h2 className="text-3xl font-bold tracking-tight sm:text-5xl text-white">About Me</h2>
           <p className="mt-4 max-w-2xl text-gray-400 md:text-xl">
-            I’m a passionate web developer focused on building user-friendly and visually appealing websites. I’ve worked on projects from small businesses to large applications.
+            Aspiring cybersecurity and IT professional with hands-on experience in networking, ethical hacking, and server administration. Skilled in building and managing personal servers, including hosting cloud and media services. Completed practical labs such as Hack The Box and HackThisSite, and studied networking and cybersecurity at the college level. Quick to learn new technologies and passionate about solving real-world security challenges.
           </p>
         </FadeIn>
 
@@ -21,10 +21,10 @@ export function AboutSection() {
             <div className="relative flex items-start gap-4 flex-row-reverse text-right">
               <span className="mt-1.5 h-3 w-3 shrink-0 rounded-full bg-[#3b82f6]"></span>
               <div>
-                <time className="text-xs font-medium text-gray-400">2018–2022</time>
+                <time className="text-xs font-medium text-gray-400">2022–2025</time>
                 <h3 className="text-lg font-bold text-white">Education</h3>
                 <p className="mt-1 text-sm text-gray-400">
-                  Bachelor’s Degree in Computer Science, University Name
+                  Bachelor’s Degree in Computer Science, Miami Dade College
                 </p>
               </div>
             </div>
@@ -39,7 +39,7 @@ export function AboutSection() {
                 <time className="text-xs font-medium text-gray-400">2022–Present</time>
                 <h3 className="text-lg font-bold text-white">Experience</h3>
                 <p className="mt-1 text-sm text-gray-400">
-                  Web Developer at Company Name. Built full-stack applications, improved performance, and designed modern interfaces.
+                  Freelance IT & Web Projects – Self-Employed
                 </p>
               </div>
             </div>
@@ -54,7 +54,8 @@ export function AboutSection() {
                 <time className="text-xs font-medium text-gray-400">Ongoing</time>
                 <h3 className="text-lg font-bold text-white">Interests</h3>
                 <p className="mt-1 text-sm text-gray-400">
-                  Outside of work, I enjoy hiking, photography, and reading. I’m also constantly exploring new tech trends and tools.
+                  Passionate about cybersecurity, I spend time exploring ethical hacking tools, testing network setups, and learning about emerging threats. 
+        I also enjoy customizing Linux environments, playing CTFs, and staying updated with infosec communities. Outside of tech, I like gaming, listening to music, and reading about psychology and tech policy.
                 </p>
               </div>
             </div>

@@ -86,7 +86,7 @@ export function SkillsSection() {
                     <path d="M12 20v-6M6 20v-4M18 20v-8M4 4h16v4H4z" />
                   </svg>
                 ),
-                skills: ["CompTIA Network+", "CompTIA Security+", "CompTIA A+", "AWS Cloud Practitioner", "Cisco CCNA", "Google IT Support"]
+                skills: ["CompTIA Network+", "CompTIA Security+", "CompTIA A+"]
               }
             ].map((category, idx) => (
               <div key={idx} className="flex flex-col items-center space-y-4 rounded-lg border p-6 h-full min-h-[360px]">

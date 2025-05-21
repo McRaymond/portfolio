@@ -9,7 +9,7 @@ import type { ReactNode } from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Raymond Zamora | Web Developer",
+  title: "CloudFlexIT & Digital Services",
   description: "Portfolio website showcasing my skills and projects as a web developer.",
 };
 
@@ -34,7 +34,7 @@ function Header() {
               <Link href="#about" className="transition-colors hover:text-foreground/80">About</Link>
               <Link href="#skills" className="transition-colors hover:text-foreground/80">Skills</Link>
               <Link href="#projects" className="transition-colors hover:text-foreground/80">Projects</Link>
-              <Link href="#company" className="transition-colors hover:text-foreground/80">Company</Link>
+              <Link href="#company" className="transition-colors hover:text-foreground/80">Pricing</Link>
               <Link href="#contact" className="transition-colors hover:text-foreground/80">Contact</Link>
             </nav>
           </div>

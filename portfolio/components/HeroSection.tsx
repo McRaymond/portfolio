@@ -18,12 +18,12 @@ export function HeroSection() {
                   Hi, I'm <span className="text-primary">Raymond Zamora</span>
                 </h1>
                 <p className="max-w-[600px] text-white/90 md:text-xl">
-                  A passionate web developer specializing in creating beautiful and functional websites.
+                  Aspiring cybersecurity and IT professional
                 </p>
               </div>
               <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
                 <Link
-                  href="#"
+                  href="#contact"
                   className="inline-block rounded-full border border-[#3b82f6] bg-[#3b82f6] px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-[#3b82f6] transition-colors"
                 >
                   Contact Me
