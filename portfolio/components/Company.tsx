@@ -63,7 +63,7 @@ export function CompanySection() {
                 </p>
                 <a
                   className="mt-6 block rounded-sm border border-[#3b82f6] bg-[#3b82f6] px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-[#3b82f6] transition-colors"
-                  href="#"
+                  href="https://t.me/Holigan03"
                 >
                   Get Started
                 </a>

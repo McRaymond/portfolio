@@ -2,6 +2,7 @@ import "@/app/globals.css";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Github, Linkedin, Twitter } from "lucide-react";
+import { FaTelegramPlane, FaInstagram } from "react-icons/fa"
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import type { ReactNode } from "react";
@@ -94,27 +95,28 @@ function Footer() {
 function SocialLinks() {
   return (
     <>
-      <Link href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+      <Link href="https://github.com/McRaymond" target="_blank" rel="noopener noreferrer">
         <Button variant="ghost" size="icon">
           <Github className="h-4 w-4" />
           <span className="sr-only">GitHub</span>
         </Button>
       </Link>
-      <Link href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+      <Link href="https://linkedin.com/in/raymond-zamora" target="_blank" rel="noopener noreferrer">
         <Button variant="ghost" size="icon">
           <Linkedin className="h-4 w-4" />
           <span className="sr-only">LinkedIn</span>
         </Button>
       </Link>
-      <Link href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+      <Link href="https://t.me/Holigan03" target="_blank" rel="noopener noreferrer">
         <Button variant="ghost" size="icon">
-          <Twitter className="h-4 w-4" />
-          <span className="sr-only">Twitter</span>
+          <FaTelegramPlane className="h-4 w-4" />
+          <span className="sr-only">Telegram</span>
         </Button>
       </Link>
     </>
   );
 }
+
 
 // ✅ Root Layout
 export default function RootLayout({ children }: { children: ReactNode }) {
